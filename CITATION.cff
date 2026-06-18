@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: FireDataForge
+type: software
+version: 0.1.0
+license: MIT
+repository-code: https://github.com/xiazeyu/FireDataForge
+authors:
+  - family-names: Xia
+    given-names: Zeyu
+    orcid: "https://orcid.org/0000-0003-0234-5857"
+    affiliation: University of Virginia
+  - family-names: Chen
+    given-names: Lexie
+    orcid: "https://orcid.org/0009-0004-6682-1474"
+    affiliation: University of Virginia
+  - family-names: Liu
+    given-names: Ye
+    orcid: "https://orcid.org/0000-0003-2601-7970"
+    affiliation: Pacific Northwest National Laboratory
+  - family-names: Huang
+    given-names: Huilin
+    orcid: "https://orcid.org/0000-0002-7328-6738"
+    affiliation: University of Virginia
+references:
+  - type: dataset
+    title: "FireDataForge: example and reproducibility bundle"
+    doi: 10.5281/zenodo.20743743
+    authors:
+      - family-names: Xia
+        given-names: Zeyu
+        orcid: "https://orcid.org/0000-0003-0234-5857"
+        affiliation: University of Virginia
+      - family-names: Chen
+        given-names: Lexie
+        orcid: "https://orcid.org/0009-0004-6682-1474"
+        affiliation: University of Virginia
+      - family-names: Liu
+        given-names: Ye
+        orcid: "https://orcid.org/0000-0003-2601-7970"
+        affiliation: Pacific Northwest National Laboratory
+      - family-names: Huang
+        given-names: Huilin
+        orcid: "https://orcid.org/0000-0002-7328-6738"
+        affiliation: University of Virginia

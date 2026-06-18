@@ -1,0 +1,35 @@
+[project]
+name = "firedataforge"
+version = "0.1.0"
+description = "FireDataForge turns one MTBS fire ID into a stack of harmonized, analysis-ready geospatial layers (perimeters, FRP, terrain, fuels, weather, and more) from many sources."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [
+    { name = "Zeyu Xia", email = "zeyu.xia@virginia.edu" },
+]
+dependencies = [
+    "affine",
+    "earthengine-api",
+    "geemap",
+    "geopandas[all]",
+    "herbie-data[extras]",
+    "rasterio",
+    "rioxarray",
+    "scipy",
+    "tqdm",
+]
+
+[project.urls]
+Homepage = "https://github.com/xiazeyu/FireDataForge"
+Repository = "https://github.com/xiazeyu/FireDataForge"
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "matplotlib",
+    "pandas-stubs",
+    "types-shapely",
+    "types-tqdm",
+    "scipy-stubs",
+]
