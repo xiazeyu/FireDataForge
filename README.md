@@ -2,6 +2,8 @@
 
 A tool for downloading and processing wildfire-related geospatial data from multiple sources for machine learning and analysis.
 
+Software DOI: [10.5281/zenodo.20743742](https://doi.org/10.5281/zenodo.20743742).
+
 ## Data Sources
 
 | Dataset | Description | Native Spatial Resolution | Temporal Resolution | Feature Name(s) |
@@ -979,6 +981,14 @@ Engine layers are accessed through Google Earth Engine
 | `lai` | Sentinel-2 LAI — Mukherjee & Chakraborty 2026, [doi:10.21203/rs.3.rs-8970245/v1](https://doi.org/10.21203/rs.3.rs-8970245/v1) | GEE `projects/tc-global-urban/assets/LAI_Grid_30deg_*` (2020) |
 | `sentinel2_rgb` | Sentinel-2 — Drusch et al. 2012, [doi:10.1016/j.rse.2011.11.026](https://doi.org/10.1016/j.rse.2011.11.026) | GEE `COPERNICUS/S2_SR_HARMONIZED` |
 | `wui` | Global WUI — Schug et al. 2023, *Nature*, [doi:10.1038/s41586-023-06320-0](https://doi.org/10.1038/s41586-023-06320-0) | SILVIS Lab GlobalWUI (EQUI7, ca. 2020) |
+
+## Acknowledgements & Data Attribution
+
+This work is supported by the University of Virginia's Environmental Institute.
+PNNL is operated by DOE by the Battelle Memorial Institute under contract
+DE-AC05-76RL01830.
+
+This product contains modified Copernicus Sentinel data (2017–2025), used to derive the `sentinel2_rgb` surface-reflectance imagery layer.
 
 ## License
 
