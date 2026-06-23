@@ -4,6 +4,11 @@ A tool for downloading and processing wildfire-related geospatial data from mult
 
 Software DOI: [10.5281/zenodo.20743742](https://doi.org/10.5281/zenodo.20743742).
 
+Preprint: Xia, Z., Chen, L., Liu, Y., & Huang, H. (2026). *FireDataForge: A
+Unified Framework for Multi-Source Wildfire Data Retrieval and Integration*.
+arXiv [doi:10.48550/arXiv.2606.21198](https://doi.org/10.48550/arXiv.2606.21198).
+If you use FireDataForge, please cite it — see [Citation](#citation).
+
 ## Data Sources
 
 | Dataset | Description | Native Spatial Resolution | Temporal Resolution | Feature Name(s) |
@@ -981,6 +986,26 @@ Engine layers are accessed through Google Earth Engine
 | `lai` | Sentinel-2 LAI — Mukherjee & Chakraborty 2026, [doi:10.21203/rs.3.rs-8970245/v1](https://doi.org/10.21203/rs.3.rs-8970245/v1) | GEE `projects/tc-global-urban/assets/LAI_Grid_30deg_*` (2020) |
 | `sentinel2_rgb` | Sentinel-2 — Drusch et al. 2012, [doi:10.1016/j.rse.2011.11.026](https://doi.org/10.1016/j.rse.2011.11.026) | GEE `COPERNICUS/S2_SR_HARMONIZED` |
 | `wui` | Global WUI — Schug et al. 2023, *Nature*, [doi:10.1038/s41586-023-06320-0](https://doi.org/10.1038/s41586-023-06320-0) | SILVIS Lab GlobalWUI (EQUI7, ca. 2020) |
+
+## Citation
+
+If you use FireDataForge in your research, please cite the preprint:
+
+```bibtex
+@misc{xia2026firedataforgeunifiedframeworkmultisource,
+  title={FireDataForge: A Unified Framework for Multi-Source Wildfire Data Retrieval and Integration}, 
+  author={Zeyu Xia and Lexie Chen and Ye Liu and Huilin Huang},
+  year={2026},
+  eprint={2606.21198},
+  archivePrefix={arXiv},
+  primaryClass={cs.CE},
+  url={https://arxiv.org/abs/2606.21198}, 
+}
+```
+
+The software itself ([doi:10.5281/zenodo.20743742](https://doi.org/10.5281/zenodo.20743742))
+and the reproducibility bundle ([doi:10.5281/zenodo.20743743](https://doi.org/10.5281/zenodo.20743743))
+have their own archival DOIs (see [`CITATION.cff`](CITATION.cff)).
 
 ## Acknowledgements & Data Attribution
 
