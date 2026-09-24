@@ -1097,17 +1097,20 @@ An open-access version (Green OA) is available on
 
 ```bibtex
 @inproceedings{xia2026firedataforge,
-  title={FireDataForge: A Unified Framework for Multi-Source Wildfire Data Retrieval and Integration},
-  author={Zeyu Xia and Lexie Chen and Ye Liu and Huilin Huang},
-  booktitle={2026 IEEE International Conference on Information Reuse and Integration for Data Science (IRI)},
-  pages={528--531},
-  year={2026},
-  publisher={IEEE},
-  doi={10.1109/IRI69576.2026.00103},
-  url={https://doi.org/10.1109/IRI69576.2026.00103},
-  eprint={2606.21198},
-  archivePrefix={arXiv},
-  primaryClass={cs.CE},
+    address = {Seattle, WA, USA},
+    archiveprefix = {arXiv},
+    author = {Zeyu Xia and Lexie Chen and Ye Liu and Huilin Huang},
+    booktitle = {2026 IEEE International Conference on Information Reuse and Integration for Data Science (IEEE IRI 2026)},
+    doi = {10.1109/IRI69576.2026.00103},
+    eprint = {2606.21198},
+    keywords = {Wildfire research, Geospatial data fusion, Fire behavior simulation, Data reuse, Information retrieval},
+    language = {English},
+    month = jul,
+    pages = {528--531},
+    primaryclass = {cs.CE},
+    publisher = {IEEE},
+    title = {FireDataForge: A Unified Framework for Multi-Source Wildfire Data Retrieval and Integration},
+    year = {2026}
 }
 ```
 
