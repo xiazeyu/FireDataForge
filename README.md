@@ -4,9 +4,13 @@ A tool for downloading and processing wildfire-related geospatial data from mult
 
 Software DOI: [10.5281/zenodo.20744739](https://doi.org/10.5281/zenodo.20744739).
 
-Preprint: Xia, Z., Chen, L., Liu, Y., & Huang, H. (2026). *FireDataForge: A
+Paper: Xia, Z., Chen, L., Liu, Y., & Huang, H. (2026). *FireDataForge: A
 Unified Framework for Multi-Source Wildfire Data Retrieval and Integration*.
-arXiv [doi:10.48550/arXiv.2606.21198](https://doi.org/10.48550/arXiv.2606.21198).
+In *2026 IEEE International Conference on Information Reuse and Integration for
+Data Science (IRI)*, pp. 528–531.
+[doi:10.1109/IRI69576.2026.00103](https://doi.org/10.1109/IRI69576.2026.00103)
+(IEEE Xplore). Open-access version (Green OA):
+[arXiv:2606.21198](https://arxiv.org/abs/2606.21198).
 If you use FireDataForge, please cite it — see [Citation](#citation).
 
 ## Data Sources
@@ -1086,17 +1090,24 @@ Engine layers are accessed through Google Earth Engine
 
 ## Citation
 
-If you use FireDataForge in your research, please cite the preprint:
+If you use FireDataForge in your research, please cite the IEEE IRI 2026 paper
+([doi:10.1109/IRI69576.2026.00103](https://doi.org/10.1109/IRI69576.2026.00103)).
+An open-access version (Green OA) is available on
+[arXiv:2606.21198](https://arxiv.org/abs/2606.21198).
 
 ```bibtex
-@misc{xia2026firedataforgeunifiedframeworkmultisource,
-  title={FireDataForge: A Unified Framework for Multi-Source Wildfire Data Retrieval and Integration}, 
+@inproceedings{xia2026firedataforge,
+  title={FireDataForge: A Unified Framework for Multi-Source Wildfire Data Retrieval and Integration},
   author={Zeyu Xia and Lexie Chen and Ye Liu and Huilin Huang},
+  booktitle={2026 IEEE International Conference on Information Reuse and Integration for Data Science (IRI)},
+  pages={528--531},
   year={2026},
+  publisher={IEEE},
+  doi={10.1109/IRI69576.2026.00103},
+  url={https://doi.org/10.1109/IRI69576.2026.00103},
   eprint={2606.21198},
   archivePrefix={arXiv},
   primaryClass={cs.CE},
-  url={https://arxiv.org/abs/2606.21198}, 
 }
 ```
 
