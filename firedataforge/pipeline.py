@@ -219,7 +219,7 @@ def process_single_fire(
             if selected("burn_perimeter"):
                 save_and_record("burn_perimeter", perimeter)
     elif selected("burn_perimeter") and not has_feds:
-        record("burn_perimeter", "skipped", reason="no local FEDS archive")
+        record("burn_perimeter", "skipped", reason="event not in FEDS archive")
 
     # --- Phase 2: independent layers, in parallel, fail-soft ---
     def frp_builder(time_of_day: Literal['all', 'day', 'night']) -> DataLayer:
@@ -250,7 +250,7 @@ def process_single_fire(
         if not selected(key):
             continue
         if key in FEDS_ONLY_LAYERS and not has_feds:
-            record(key, "skipped", reason="no local FEDS archive")
+            record(key, "skipped", reason="event not in FEDS archive")
             continue
         if key in GEE_LAYERS and not gee_ok:
             record(key, "skipped", reason="Earth Engine not authenticated")
@@ -295,7 +295,7 @@ def process_single_fire(
     # --- Phase 3: fireline_max_frp (depends on fireline + daytime FRP points) ---
     if selected("fireline_max_frp"):
         if not has_feds:
-            record("fireline_max_frp", "skipped", reason="no local FEDS archive")
+            record("fireline_max_frp", "skipped", reason="event not in FEDS archive")
         else:
             fireline = next(iter(built.get("fireline") or []), None)
             try:

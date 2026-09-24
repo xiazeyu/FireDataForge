@@ -400,7 +400,7 @@ layer, so a partial run is self-documenting:
   "layers": {
     "elevation":      {"status": "ok",      "files": ["elevation.npz"]},
     "frp_daytime":    {"status": "ok",      "files": ["frp_daytime.npz"], "n_frames": 7},
-    "burn_perimeter": {"status": "skipped", "reason": "no local FEDS archive"},
+    "burn_perimeter": {"status": "skipped", "reason": "event not in FEDS archive"},
     "wui":            {"status": "failed",  "reason": "..."}
   },
   "counts": {"ok": 2, "skipped": 1, "failed": 1}
@@ -874,7 +874,7 @@ If none is available, the run still proceeds with the **Event ID** as the name.
 
 The MTBS list earns its place on the fires FEDS-MTBS does **not** cover (pre-2012
 / post-2024): there is no perimeter GeoPackage for those, so `burn_perimeter`,
-`fireline` and `fireline_max_frp` are skipped ("no local FEDS archive") and `t_end`
+`fireline` and `fireline_max_frp` are skipped ("event not in FEDS archive") and `t_end`
 falls back to the estimated window, but every other layer (GEE, FIRMS FRP, WUI,
 NIFC recent burns, HRRR weather) still runs, gridded on the MTBS burn-boundary bbox.
 
